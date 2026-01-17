@@ -25,7 +25,9 @@ namespace MovieRental.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetCustomer()
+        public async 
+            
+            Task<IActionResult> GetCustomer()
         {
             return Ok(await _features.GetCustomers());
         }
